@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>000B_main</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\000B_main_zhouqin;C:\Users\Zhang\Documents\Arduino\libraries\int64_DS3231;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\libraries\Wire\src;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\libraries\EEPROM\src;C:\Users\Zhang\Documents\Arduino\libraries\DHT_sensor_library;C:\Users\Zhang\Documents\Arduino\libraries\OneWire;C:\Users\Zhang\Documents\Arduino\libraries\DallasTemperature;C:\Users\Zhang\Documents\Arduino\libraries\Adafruit_Unified_Sensor;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\libraries\Wire\src\utility;E:\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\hmm5bhw5.c2x\Micro Platforms\visualmicro\ide\libraries;C:\Users\Zhang\Documents\Arduino\libraries;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\libraries;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\cores\arduino;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.19\variants\mega;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include\;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\avr\include\avr\;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\Zhang\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.000B_main_zhouqin.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__AVR_ATmega2560__;F_CPU=16000000L;ARDUINO=10801;ARDUINO_AVR_MEGA2560;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="000B_main.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ab_time.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="actors.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="actuator_base.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="air_snor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="air_temp_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="co2_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="config_base.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ctrlor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="hdw_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="humi_add_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="humi_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="in_fan_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="in_fan_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="light_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="lt_auto_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="lt_man_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ro_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="sht_cf.h" />
+    <ClInclude Include="snors.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="snor_base.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="spray_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="spray_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="temp_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="time_swich_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tp_cf.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="wt_temp_ac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="wt_tp_snor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.000B_main.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ab_time.cpp" />
+    <ClCompile Include="actors.cpp" />
+    <ClCompile Include="air_snor.cpp" />
+    <ClCompile Include="air_temp_ac.cpp" />
+    <ClCompile Include="clock.cpp" />
+    <ClCompile Include="cmd.cpp" />
+    <ClCompile Include="co2_ac.cpp" />
+    <ClCompile Include="configs.cpp" />
+    <ClCompile Include="config_base.cpp" />
+    <ClCompile Include="ctrlor.cpp" />
+    <ClCompile Include="hdw_cf.cpp" />
+    <ClCompile Include="humi_add_ac.cpp" />
+    <ClCompile Include="humi_cf.cpp" />
+    <ClCompile Include="in_fan_ac.cpp" />
+    <ClCompile Include="in_fan_cf.cpp" />
+    <ClCompile Include="light_ac.cpp" />
+    <ClCompile Include="lt_auto_cf.cpp" />
+    <ClCompile Include="lt_man_cf.cpp" />
+    <ClCompile Include="ro_ac.cpp" />
+    <ClCompile Include="sht_cf.cpp" />
+    <ClCompile Include="snors.cpp" />
+    <ClCompile Include="spray_ac.cpp" />
+    <ClCompile Include="spray_cf.cpp" />
+    <ClCompile Include="tank.cpp" />
+    <ClCompile Include="temp_ac.cpp" />
+    <ClCompile Include="time_swich_cf.cpp" />
+    <ClCompile Include="tp_cf.cpp" />
+    <ClCompile Include="wt_temp_ac.cpp" />
+    <ClCompile Include="wt_tp_snor.cpp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="COM6" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

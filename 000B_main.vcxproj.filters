@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="000B_main.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.000B_main.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ab_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="actors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="actuator_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="air_snor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="air_temp_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="co2_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ctrlor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdw_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="humi_add_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="humi_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="in_fan_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="in_fan_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lt_auto_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lt_man_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ro_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snor_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spray_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spray_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_swich_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tp_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wt_temp_ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wt_tp_snor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sht_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ab_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="actors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="air_snor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="air_temp_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="co2_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="configs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctrlor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdw_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="humi_add_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="humi_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="in_fan_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="in_fan_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lt_auto_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lt_man_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ro_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spray_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spray_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="temp_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time_swich_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tp_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wt_temp_ac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wt_tp_snor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sht_cf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
